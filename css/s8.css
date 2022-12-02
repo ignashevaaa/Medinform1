@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(209, 152, 113);
+    color:rgb(0, 0, 0);
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header,
+footer {
+    text-align: center;
+    background-color:bisque;
+}
+p{
+    text-align: right;
+}
+ h2,h3,h4{
+     color:rgb(75, 97, 168);
+     text-decoration-line: underline;
+ }   
+ p{
+    text-align: justify;
+    text-indent: 8ch;
+ }
+ p::first-line {
+    color:rgb(252, 97, 144);
+ }
+p::first-letter{
+    font-size: 120%;
+    color:darkred;
+    text-decoration-line: underline;
+}
+section:hover {
+    background-color: goldenrod;
+}
+.myimage-div
+{
+    display: none;
+}
+a.myimage-ssilka:hover+div
+{
+    display:block;
+}
